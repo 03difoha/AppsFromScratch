@@ -2,7 +2,7 @@
 
 ## Day 1 AM
 
-1. Welcome & introductions 
+1. Welcome & introductions
 * [The plan for this course](#what-is-the-plan)
 * [What is code?](#what-is-code****)
 * [What is an app?](#what-is-an-app)
@@ -34,15 +34,15 @@ We aim to wrap up by **4pm**.
 
 ### Two words about ourselves
 
-* **Matteo** studied graphic design. He also taught himself to code. He built social platforms and educational games for the BBC, Science Museum and now teaches Web design and coding at Ravensbourne.  
+<!-- * **Matteo** studied graphic design. He also taught himself to code. He built social platforms and educational games for the BBC, Science Museum and now teaches Web design and coding at Ravensbourne.  -->
 
-* **Aimee** studied fashion design, makes clothes and websites. She is the *jargon buster*, the bridge between beginners and professional coders.
+<!-- * **Aimee** studied fashion design, makes clothes and websites. She is the *jargon buster*, the bridge between beginners and professional coders. -->
 
 	<!-- She never thought of herself as a technical person. -->
 
-**No computer scientists**, we learned code by ourselves through experimenting and tinkering. 
+**No computer scientists**, we learned code by ourselves through experimenting and tinkering.
 
-We want to show you that it's easy to get started and anyone can give it a go!
+We were recently in your shoes and want to show you that it's easy to get started and anyone can give it a go!
 
 ### Introduce each other
 
@@ -64,34 +64,34 @@ We'd like you to introduce yourself to your neighbour. Then we'll ask you to int
 
 This course is about getting **creative** with **code**.
 
-Getting familiar with how coders work day to day, and experiencing the **design and development process** first-hand. How to take an idea from zero to working prototype. 
+Getting familiar with how coders work day to day, and experiencing the **design and development process** first-hand. How to take an idea from zero to working prototype.
 
 For many of you, this will be a **memorable day**. You'll write your **first line of code**, and in a few weeks you'll have made **your own app**, from scratch!
 
-We're going to show you the **basics** and together we'll create an app **template** that you can then customise. The app template will connect to an online database to load data, and manipulate it in response to user inputs. 
+We're going to show you the **basics** and together we'll create an app **template** that you can then customise. The app template will connect to an online database to load data, and manipulate it in response to user inputs.
 
 Using **HTML**, **CSS** and **JavaScript**!
 
 This is an introductory course, inevitably there are parts of the process that we won't cover (such as how to market your app or package it for a specific market).
 
 It's going to be **challenging** and we want to make sure that you also have **fun**!
- 
+
 We're not here to talk at you, but to work with you and we want you to **work together** and help each other.
 
 -->
 
 ### GitHub
 
-All the course material is on GitHub :octocat: 
-[**github.com/CodeAndCake/AppsFromScratch**](https://github.com/CodeAndCake/AppsFromScratch) 
+All the course material is on GitHub :octocat:
+[**github.com/CodeAndCake/AppsFromScratch**](https://github.com/CodeAndCake/AppsFromScratch)
 
 Including notes from each session, exercises, sample code, presentations and links to learn more!
 
 
 # What is the plan?
 
-When	| What	
----	| ----	
+When	| What
+---	| ----
 ![](../img/day-1.jpg) | On the first day we discuss key concepts around apps (interface, logic, data) and start coding with **HTML** & **CSS**.
 ![](../img/day-2.jpg) | We introduce the principles of **programming** and start playing with **JavaScript**.
 ![](../img/day-3.jpg) | Where to find **data** and how to use it programmatically. Your app's data has to be stored somewhere!
@@ -118,7 +118,7 @@ Code is about
 * giving instructions
 * **communication**
 
-If I want to talk to my **grandma**, I need to use Italian. To communicate with you, I use English. 
+If I want to communicate with **someone** that doesn't speak English, I will need to learn a language that they can understand. To communicate with you, I use English.
 
 To **talk to a computer**, we use...
 
@@ -128,7 +128,7 @@ Code is **instructions** to a computer: extremely powerful yet fundamentally *th
 
 Remember how you learned your first language as a child?
 
-You learned your first language by **copying** people around you, **observing** their reactions to your actions. 
+You learned your first language by **copying** people around you, **observing** their reactions to your actions.
 
 "If I say `mum` then that one person will respond. She also responds when I cry. She doesn't respond to other names, it seems."
 
@@ -154,7 +154,7 @@ How do you explain what an app is to someone or something who's never seen/used 
 <!--
 ### Your turn
 
-Pretending one of us is an *alien*, let's ask some obvious questions and jot down some answers and key words on post-its. 
+Pretending one of us is an *alien*, let's ask some obvious questions and jot down some answers and key words on post-its.
 
 If people answer with jargon, like *software* or *download*, then we ask them to explain those too to our *alien*.
 -->
@@ -170,9 +170,9 @@ There is no clear-cut definition of *app*.
 
 For the sake of this course, we like to think of apps as small **digital tools** that are **connected** to the Web.
 
-To use an analogy, if a website is like a *book*, which you use to find and consume information, an app is closer to a *whisk*, which you use to make something with.
+To use an analogy, if the internet is like a *library* an app is like a *ladder*, which you use to help access a specific books.
 
-![](assets/whisk.png)
+![](assets/mocooo.jpg)
 
 Apps generally have a specific function, or a small set of functions. They are not trying to do everything.
 
@@ -209,11 +209,11 @@ In 3 days you will **get started with coding** and by the end you will:
 
 The parts of the app you directly interact with (touch, read, click, speak to etc.)
 
-A good interface must be *usable* and should align to a user's *mental models* (how does s/he expect the interface to work). 
+A good interface must be *usable* and should align to a user's *mental models* (how does s/he expect the interface to work).
 
 ### Data
 
-The *fuel* of an app, the raw ingredients that the interface presents to you (more or less *cooked*). 
+The *fuel* of an app, the raw ingredients that the interface presents to you (more or less *cooked*).
 
 Data is also the information that you provide an app with: the username you type in, the pictures you upload, the geo-location coordinates apps stream...
 
@@ -230,14 +230,14 @@ Many `if this then that` blocks can build quite complex behaviours.
 
 ### Make an **app** that helps **people** sort through **data** to **find** who/what they are looking for.
 
-**The *who/what* is up to you**. People may be looking for other people in their community to do something together, or they may be looking for food recipes, places to go, books to read, films to watch.. 
+**The *who/what* is up to you**. People may be looking for other people in their community to do something together, or they may be looking for food recipes, places to go, books to read, films to watch..
 
 No matter which data the app uses, its **logic** will be the same:
 
-1. **Load data** from an online database 
+1. **Load data** from an online database
 * Capture **user inputs**, when they click on buttons, type into text boxes or choose from a dropdown menu etc.
 * **Sort data** according to user choices, for instance filtering out data that doesn't match their choices
-* Present a human-readable **output** 
+* Present a human-readable **output**
 
 ### Interface
 
@@ -255,9 +255,9 @@ We'll also show you that you don't need to write all this code from scratch. The
 
 ### Data
 
-We'll show you how to create structured data, aka a **database**. 
+We'll show you how to create structured data, aka a **database**.
 
-No scary formula or data crunching though! 
+No scary formula or data crunching though!
 
 On week 5 and 6 you will change the data to make your app serve your own purposes.
 
@@ -266,10 +266,10 @@ On week 5 and 6 you will change the data to make your app serve your own purpose
 
 A few **tips** before we start coding:
 
-* You don't need to understand everything right away, it will slowly make more and more sense as you look at it over time. 
+* You don't need to understand everything right away, it will slowly make more and more sense as you look at it over time.
 
-* You don't have to bust your brain to remember everything either! 
- 
+* You don't have to bust your brain to remember everything either!
+
 * If you're not sure how to do something, get into the practice of *googling* it! All the answers are out there. Being able to find them is a real skill that all coders continue to hone.
 
 * Good coders don't type - always **copy-paste** where possible!
@@ -298,12 +298,12 @@ PC <kbd>ctrl</kbd> + <kbd>v</kbd>
 
 We're going to learn how to:
 
-* Write HTML to **structure** your app interface 
+* Write HTML to **structure** your app interface
 	* Create several types of **text** (paragraphs, headings)
 	* Create **inputs** (dropdowns, buttons, text boxes)
 	* Create **links** to other Web pages
 	* Add **images**
-	 
+
 * Write CSS to **style** your app interface
 	* Design your app **typography**
 	* Set your app **colours**
@@ -313,7 +313,7 @@ We're going to learn how to:
 
 > Go to [thimble.mozilla.org](https://thimble.mozilla.org/) and log in with these details:
 > * Email: `codeyourapp`
-> * Password: `Letme1n!` 
+> * Password: `Letme1n!`
 
 > Then click on `Start a project from scratch`.
 
@@ -325,7 +325,7 @@ It's good practice to build the **HTML** first, and then make it _stylish_ with 
 
 #### HTML basics
 
-HTML is a *markup* language, which you use to *format your content*. 
+HTML is a *markup* language, which you use to *format your content*.
 
 Essentially, you wrap content inside bits of code called tags.
 
@@ -333,7 +333,7 @@ Essentially, you wrap content inside bits of code called tags.
 
 The bits of code inside angle brackets `<` and `>` are instructions for the computer:
 
-* They describe the content they wrap 
+* They describe the content they wrap
 * Define where it starts `<tag>`
 * Define where it ends `</tag>`
 
@@ -359,7 +359,7 @@ Every HTML document, at the bare bones, needs to have this structure.
 	<body>
 		...
 	</body>
-</html>	
+</html>
 ```
 -->
 
@@ -367,7 +367,7 @@ Every HTML document, at the bare bones, needs to have this structure.
 
 #### Head
 
-> In the `head` edit your app `title` by changing the text in between the `<title> ... </title>` tags. 
+> In the `head` edit your app `title` by changing the text in between the `<title> ... </title>` tags.
 
 What you put in the `head` is not visible to the user.
 
@@ -399,7 +399,7 @@ It's important. We recommend [hipsterlogogenerator.com](https://www.hipsterlogog
 
 > Take a couple of minutes to quickly make your own fancy logo.
 
-> To place your logo in your HTML document create an `img` element inside the first `section`. `img` element doesn't need a closing tag (it's one of the exceptions to the general rule of closing tags).
+> To place your logo in your HTML document create an `img` element inside the first `section`. `img` elements don't need closing tags (it's one of the exceptions to the general rule of closing tags).
 
 > ```html
 <section>
@@ -407,7 +407,7 @@ It's important. We recommend [hipsterlogogenerator.com](https://www.hipsterlogog
 </section>
 ```
 
-Every `img` requires a link - either a weblink to the image or the location of the image you're using in your files. 
+Every `img` requires a link - either a weblink to the image or the location of the image you're using in your files.
 
 > In Thimble, upload your logo and put the name inside `src=" "`
 
@@ -417,9 +417,9 @@ Every `img` requires a link - either a weblink to the image or the location of t
 </section>
 ```
 
-If you're taking an image from the web you need to use the link to the image alone. 
+If you're taking an image from the web you need to use the link to the image alone.
 
-> Right-click on the image and `Copy Link Address`. Then paste it inside `src=" "` 
+> Right-click on the image and `Copy Link Address`. Then paste it inside `src=" "`
 
 > ```html
 <section>
@@ -496,7 +496,7 @@ It's a set of `options` that people can choose from.
 ![](assets/links_inside_paragraphs.jpg)
 
 You can add **hyperlinks** to our content using the `a` element.
-	
+
 ```html
 <a href="http://example.com"> the clickable text </a>
 ```
@@ -508,7 +508,7 @@ You can add **hyperlinks** to our content using the `a` element.
 > ```html
 	...
 	<p>Made with love by <a href="http://example.com"> Your Name</a></p>
-</body>	
+</body>
 ```
 
 ### Publish your project
@@ -537,7 +537,7 @@ You can have more than just one CSS file, and we'll show you how it's good pract
 
 You use CSS to style HTML.
 
-CSS looks and works differently than HTML. 
+CSS looks and works differently than HTML.
 
 ```css
 selector
@@ -584,13 +584,13 @@ p
 > * change the `color` of your `h1` or `h2` elements
 > * align some elements to the `center` (*google* how to do it)
 > * hide some elements
-> * change the `background-color` of the whole page 
+> * change the `background-color` of the whole page
 
 > What else would you like to do? Try and *google* it first, then we can do it together (if it's not too whacky).
 
-#### Search for solutions! 
+#### Search for solutions!
 
-Part of learning to code and being a coder is searching for answers, every day. You don't need to remember everything and you don't need to learn everything immediately. 
+Part of learning to code and being a coder is searching for answers, every day. You don't need to remember everything and you don't need to learn everything immediately.
 
 **All the answers can be found on the Web! As coders, we must get used to searching online for solutions.**
 
@@ -608,14 +608,14 @@ You can also play with this code and change the way your favourite websites look
 
 #### Fonts
 
-Text is the major carrier of information on an app, so it's good practice to start with **typography**, or *type setting*. That means defining how texts are going to look, which fonts your app is going to use, and the proportions between them in your app layout. 
+Text is the major carrier of information on an app, so it's good practice to start with **typography**, or *type setting*. That means defining how texts are going to look, which fonts your app is going to use, and the proportions between them in your app layout.
 
-> You can grab a free **font** from [Google Fonts](https://www.google.com/fonts): 
+> You can grab a free **font** from [Google Fonts](https://fonts.google.com/):
 
 > 1. Pick a typeface you like
-> * Click on `Quick-use` (the button with an arrow pointing to the right).
-> * Choose the font styles you want to use
-> * Copy the `link` code for it and paste it in your app `head` in Thimble. 
+> * Click on the red `+` button (in the top right corner of the selected font)
+> * Toggle the `family selected` box (black bar in the bottom right)
+> * Copy and paste the `embed code` into your Thimble (between your <head> tags)
 
 >	Where? Before `style.css`
 
@@ -624,9 +624,9 @@ Text is the major carrier of information on an app, so it's good practice to sta
 		...
 		<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,900' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/style.css">
-	</head>	
+	</head>
 	```
-> * In `style.css`, define the font for the `body` element (all other elements will inherit it). 
+> * In `style.css`, define the font for the `body` element (all other elements will inherit it).
 
 >	```css
 body
@@ -636,10 +636,10 @@ body
 ```
 
 We're using the font *Lato* as an example, but you can pick **whichever font** you like and change your CSS code accordingly. There are more than 700 fonts available on Google Fonts!
-	
+
 Then you can set **more specific rules** for headings, paragraphs and bold elements. For instance, you could use a different font just for headings, as well as changing many other aspects of your typography:
-	
-* `font-family` 
+
+* `font-family`
 * `font-size`
 * `font-weight`
 * `font-style`
@@ -649,10 +649,10 @@ Then you can set **more specific rules** for headings, paragraphs and bold eleme
 * `text-align`
 * `text-decoration`
 * `text-transform`
-* `text-indent`	
+* `text-indent`
 
 > `font-family`, `font-size` and `color` are a great place to start!
-	
+
 #### Background images
 
 You can add images to your app via CSS. This is useful if you want to set different images for different screen sizes (eg: one for mobile, a different one for tablets) as well as fine-tuning how your images should display.
@@ -684,7 +684,7 @@ html
 
 By default background-images *tile*, but we want them to take up the whole available screen space, without losing their aspect ratio (no squashing). 
 
-We can achieve that with `background-size`. This property can take various values: pixel sizes, percentages, and then a couple of interesting keywords. 
+We can achieve that with `background-size`. This property can take various values: pixel sizes, percentages, and then a couple of interesting keywords.
 
 * `contain` will scale the image so as to be as large as possible providing that it is **contained** within the background positioning area. 
 * `cover` instead, will scale the image, this time to be as large as possible so that the background positioning area is completely **covered** by the background image.
@@ -697,7 +697,7 @@ html
 	background-image: url(https://images.unsplash.com/BLABLABLABLABLA);
  	background-size: cover;
 }
-```	
+```
 
 Now the image *covers* the content of your app, ie the `body` but you have probably noticed that it doesn't cover the *whole browser window*. The last touch we can add to the background image, to make it cover the whole browser window is adding `background-attachment: fixed;`
 
@@ -766,14 +766,14 @@ html
 
 * Make the app look proper on a phone. Google `how to stop phone zooming out pages`
 
-* Make the app **full screen**. Google `how to hide address bar in mobile browser` and you should find [this tutorial](http://www.html5rocks.com/en/mobile/fullscreen/) 
+* Make the app **full screen**. Google `how to hide address bar in mobile browser` and you should find [this tutorial](http://www.html5rocks.com/en/mobile/fullscreen/)
 
 * Add the app to your phone's **home screen**
- 
+
 	`<link rel="apple-touch-icon" href="blabla.png">`
-	
-* Transparency?	
-	
+
+* Transparency?
+
 * Take inspiration from these fancy demos by Codrops:
 	* [Custom select elements](http://tympanus.net/codrops/2014/07/10/inspiration-for-custom-select-elements/)
 	* [Minimal form interface](http://tympanus.net/codrops/2014/04/01/minimal-form-interface)

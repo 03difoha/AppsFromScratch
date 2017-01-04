@@ -34,11 +34,15 @@ Join a group of determined, like-minded individuals to discuss, learn and make i
 
 ### Who's teaching?
 
-**[Matteo](https://twitter.com/@baddeo)** is a senior lecturer for [Web Media at Ravensbourne](https://twitter.com/RaveWebMedia) with loads of experience building apps and educational games. He loves teaching and has near-infinite patience.
+<!-- **[Matteo](https://twitter.com/@baddeo)** is a senior lecturer for [Web Media at Ravensbourne](https://twitter.com/RaveWebMedia) with loads of experience building apps and educational games. He loves teaching and has near-infinite patience. -->
 
 <!-- **Yuki** is a self-taught JavaScript ninja and a senior developer at [The Mill](http://www.themill.com/). He has plenty of inspiring links and JS tricks to share. -->
 
-**[Aimee](http://aimeemj.com)** makes websites and clothes. She was in your shoes a year ago, reads puzzled faces and knows when to slow down the pace.
+<!-- **[Aimee](http://aimeemj.com)** makes websites and clothes. She was in your shoes a year ago, reads puzzled faces and knows when to slow down the pace. -->
+
+**[Harry](https://twitter.com/@h_dif)** is a third year [Web Media](https://twitter.com/RaveWebMedia) student with loads experience coding from various projects. Has lots of patience for debugging code.
+
+**[Jonny](https://twitter.com/@jonnygwi)** is also a third year [Web Media](https://twitter.com/RaveWebMedia) student, JavaScript Wizz with an eye for detail. Enjoys making educational games to improve computer literacy.
 
 ### What do I need to bring?
 
@@ -88,7 +92,7 @@ Which day?	| What are we learning?
 * Discuss **app ideas** in terms of *interface*, *logic* and *data* with designers and developers.
 * **Visualise interaction flows** with analog (paper) and digital tools.
 * Break down **behaviour** (including human behaviour) into *algorithms*, that is step-by-step instructions that can be coded.  
-* Understand the role of the three pillar **technologies** of the Web: *HTML*, *CSS* and *JS*. 
+* Understand the role of the three pillar **technologies** of the Web: *HTML*, *CSS* and *JS*.
 * Understand how **data APIs** work (HTTP requests, API keys, URL parameters) and hook up one (or more) APIs to your Web application.
 * Critically analyse the **mechanics** of a Web application, breaking down its behaviour into *data*, *functions* and *logic*.
 -->
