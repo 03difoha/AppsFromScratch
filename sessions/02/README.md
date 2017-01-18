@@ -4,7 +4,7 @@
 
 [Last week](../01) we started building your app's **interface** with HTML and CSS. 
 
-**Today** we'll continue making with HTML and CSS. 
+**Today** we'll continue coding with HTML and CSS. 
 
 Then we'll introduce the principles of **programming** and start playing with **JavaScript**.
 
@@ -131,7 +131,7 @@ The CSS style is in another file `style.css` which is linked to the HTML with a 
 
 Imagine that there is an **invisible box** around *every* HTML element. 
 
-Your browser likes to put code into boxes, boxes inside boxes inside boxes inside boxes...
+Your browser likes to put code into boxes, boxes inside boxes inside boxes...
 
 Each HTML box has:
 

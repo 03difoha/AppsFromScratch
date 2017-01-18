@@ -38,7 +38,7 @@ We aim to wrap up by **4pm**.
 
 <!-- * **Aimee** studied fashion design, makes clothes and websites. She is the *jargon buster*, the bridge between beginners and professional coders. -->
 
-	<!-- She never thought of herself as a technical person. -->
+<!-- She never thought of herself as a technical person. -->
 
 **No computer scientists**, we learned code by ourselves through experimenting and tinkering.
 
@@ -83,7 +83,7 @@ We're not here to talk at you, but to work with you and we want you to **work to
 ### GitHub
 
 All the course material is on GitHub :octocat:
-[**github.com/CodeAndCake/AppsFromScratch**](https://github.com/CodeAndCake/AppsFromScratch)
+[**github.com/03difoha/AppsFromScratch**](https://github.com/03difoha/AppsFromScratch)
 
 Including notes from each session, exercises, sample code, presentations and links to learn more!
 
@@ -615,7 +615,7 @@ Text is the major carrier of information on an app, so it's good practice to sta
 > 1. Pick a typeface you like
 > * Click on the red `+` button (in the top right corner of the selected font)
 > * Toggle the `family selected` box (black bar in the bottom right)
-> * Copy and paste the `embed code` into your Thimble (between your <head> tags)
+> * Copy and paste the `embed code` into your Thimble (between your head tags)
 
 >	Where? Before `style.css`
 
@@ -626,7 +626,7 @@ Text is the major carrier of information on an app, so it's good practice to sta
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	```
-> * In `style.css`, define the font for the `body` element (all other elements will inherit it).
+> * Go back to google fonts and copy the CSS rule and past it into `style.css`, this will define the font for the `body` element (all elements inside the body will inherit it).
 
 >	```css
 body
