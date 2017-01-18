@@ -170,7 +170,7 @@ There is no clear-cut definition of *app*.
 
 For the sake of this course, we like to think of apps as small **digital tools** that are **connected** to the Web.
 
-To use an analogy, if the internet is like a *library* an app is like a *ladder*, which you use to help access a specific books.
+To use an analogy, if the internet is like a *library* an app is like a *ladder*, which you use to help access specific books. In this case books are like websites, or web services such as databases.
 
 ![](assets/mocooo.jpg)
 
