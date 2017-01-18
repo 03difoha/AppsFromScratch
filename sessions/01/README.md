@@ -312,8 +312,8 @@ We're going to learn how to:
 ## Step by step
 
 > Go to [thimble.mozilla.org](https://thimble.mozilla.org/) and log in with these details:
-> * Email: `codeyourapp`
-> * Password: `Letme1n!`
+> * Email: `appsfromscratch`
+> * Password: `Letmein1`
 
 > Then click on `Start a project from scratch`.
 
