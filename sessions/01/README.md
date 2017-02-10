@@ -38,9 +38,7 @@ We aim to wrap up by **4pm**.
 
 <!-- * **Aimee** studied fashion design, makes clothes and websites. She is the *jargon buster*, the bridge between beginners and professional coders. -->
 
-	<!-- She never thought of herself as a technical person. -->
-
-**No computer scientists**, we learned code by ourselves through experimenting and tinkering.
+**No computer scientists**, we learnt to code by ourselves through experimenting and tinkering.
 
 We were recently in your shoes and want to show you that it's easy to get started and anyone can give it a go!
 
@@ -126,9 +124,9 @@ Code is **instructions** to a computer: extremely powerful yet fundamentally *th
 
 ### How do you learn to code?
 
-Remember how you learned your first language as a child?
+Remember how you learnt your first language as a child?
 
-You learned your first language by **copying** people around you, **observing** their reactions to your actions.
+You learnt your first language by **copying** people around you, **observing** their reactions to your actions.
 
 "If I say `mum` then that one person will respond. She also responds when I cry. She doesn't respond to other names, it seems."
 
