@@ -38,9 +38,7 @@ We aim to wrap up by **4pm**.
 
 <!-- * **Aimee** studied fashion design, makes clothes and websites. She is the *jargon buster*, the bridge between beginners and professional coders. -->
 
-	<!-- She never thought of herself as a technical person. -->
-
-**No computer scientists**, we learned code by ourselves through experimenting and tinkering.
+**No computer scientists**, we learnt to code by ourselves through experimenting and tinkering.
 
 We were recently in your shoes and want to show you that it's easy to get started and anyone can give it a go!
 
@@ -126,9 +124,9 @@ Code is **instructions** to a computer: extremely powerful yet fundamentally *th
 
 ### How do you learn to code?
 
-Remember how you learned your first language as a child?
+Remember how you learnt your first language as a child?
 
-You learned your first language by **copying** people around you, **observing** their reactions to your actions.
+You learnt your first language by **copying** people around you, **observing** their reactions to your actions.
 
 "If I say `mum` then that one person will respond. She also responds when I cry. She doesn't respond to other names, it seems."
 
@@ -313,7 +311,7 @@ We're going to learn how to:
 
 > Go to [thimble.mozilla.org](https://thimble.mozilla.org/) and log in with these details:
 > * Email: `appsfromscratch`
-> * Password: `Letmein1`
+> * Password: `Letmein1!`
 
 > Then click on `Start a project from scratch`.
 
@@ -614,7 +612,7 @@ Text is the major carrier of information on an app, so it's good practice to sta
 
 > 1. Pick a typeface you like
 > * Click on the red `+` button (in the top right corner of the selected font)
-> * Toggle the `family selected` box (black bar in the bottom right)
+> * Toggle the `family selected` box (black bar at the bottom)
 > * Copy and paste the `embed code` into your Thimble (between your <head> tags)
 
 >	Where? Before `style.css`
@@ -662,23 +660,23 @@ You can add images to your app via CSS. This is useful if you want to set differ
 > ```css
 html
 {
-	background-image: url(  );
+	background-image: url('');
 }
 ```
 
-You can upload your own image files to Thimble (if they're smaller than 3MB), or use images from the Web (provided they're licensed for re-use).
+You can upload your own image files to Thimble (if they're smaller than 3MB), or use image links from the Web (provided they're licensed for re-use).
 
-For now, we'll use [unsplash.com](https://unsplash.com), where you can find beautiful, high-res pictures that are free to use for *whatever* purpose you want. Amazing! Read their [licence](https://unsplash.com/license) if you don't believe us :)
+For now, we'll use [03difoha.github.io](https://03difoha.github.io), where you can find beautiful, high-res pictures that are free to use for *whatever* purpose you want. Amazing!
 
-> 1. Find an image you like on [unsplash.com](https://unsplash.com)
-> * Click on the `↓` (Download) button on the bottom-right corner of the picture. This will open a new browser tab showing your chosen picture only.
-> * **Copy** the address (URL) of that image. It starts with `https://images.unsplash.com` and it's quite long.
+> 1. Find an image you like on [03difoha.github.io](https://03difoha.github.io)
+> * Secondary click on the image. (Right click for PC, Two finger click for Mac)
+> * **Copy Image Address**. This should copy the images URL to your clipboard. Paste it into a new tab if you don't believe me.
 > * **Paste** it in your `style.css` inside the `body` `background-image` rule like so
 
 > ```css
 html
 {
-	background-image: url(https://images.unsplash.com/BLABLABLABLABLA);
+	background-image: url(https://03difoha.github.io/BLABLABLABLABLA);
 }
 ```
 
@@ -694,7 +692,7 @@ We can achieve that with `background-size`. This property can take various value
 > ```css
 html
 {
-	background-image: url(https://images.unsplash.com/BLABLABLABLABLA);
+	background-image: url(https://03difoha.github.io/BLABLABLABLABLA);
  	background-size: cover;
 }
 ```
@@ -704,7 +702,7 @@ Now the image *covers* the content of your app, ie the `body` but you have proba
 > ```css
 html
 {
-	background-image: url(https://images.unsplash.com/BLABLABLABLABLA);
+	background-image: url(https://03difoha.github.io/BLABLABLABLABLA);
  	background-size: cover;
  	background-attachment: fixed;
 }
