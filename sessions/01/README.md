@@ -81,7 +81,7 @@ We're not here to talk at you, but to work with you and we want you to **work to
 ### GitHub
 
 All the course material is on GitHub :octocat:
-[**github.com/CodeAndCake/AppsFromScratch**](https://github.com/CodeAndCake/AppsFromScratch)
+[**github.com/03difoha/AppsFromScratch**](https://github.com/03difoha/AppsFromScratch)
 
 Including notes from each session, exercises, sample code, presentations and links to learn more!
 
@@ -100,13 +100,11 @@ When	| What
 
 # What is **code**?
 
-Can you fill in the blanks?
-
 #### [...] code
 
-Think of words/phrases that end with `code`.
+*Morse code*, *post code*, *dress code*, •genetic code*, *highway code*...
 
-<!-- *Morse code*, *post code*, *dress code*... -->
+What do you think all of these have in common with each other?
 
 Code existed **before computers**.
 
@@ -237,21 +235,21 @@ No matter which data the app uses, its **logic** will be the same:
 * **Sort data** according to user choices, for instance filtering out data that doesn't match their choices
 * Present a human-readable **output**
 
-### Interface
+#### Interface
+
+This is what we're focusing on today.
 
 Here's an initial sketch of how the app may look and work.
 
 [![](assets/monochrome_moqup.png)](https://app.moqups.com/aimeebethmj@gmail.com/424uOp4p55/view/page/a80b23701)
 
-This is what we're focusing on today.
-
-### Logic
+#### Logic
 
 Next week we'll teach you how to use JavaScript to assign *behaviour* to your interface, coding logic like `if you click this button, then do XYZ`.
 
 We'll also show you that you don't need to write all this code from scratch. There are plenty of ready-made code *libraries* that you can use in your own project. No need to reinvent the wheel!
 
-### Data
+#### Data
 
 We'll show you how to create structured data, aka a **database**.
 
@@ -311,7 +309,7 @@ We're going to learn how to:
 
 > Go to [thimble.mozilla.org](https://thimble.mozilla.org/) and log in with these details:
 > * Email: `appsfromscratch`
-> * Password: `Letmein1!`
+> * Password: `Letme1n!`
 
 > Then click on `Start a project from scratch`.
 
@@ -388,44 +386,6 @@ In the `body` you will put all the **interface elements** that are visible to th
 	<section></section>
 </body>
 ```
-
-#### Fancy logo
-
-![](assets/hipsterlogogenerator.png)
-
-It's important. We recommend [hipsterlogogenerator.com](https://www.hipsterlogogenerator.com) for quick and easy hipster logos :)
-
-> Take a couple of minutes to quickly make your own fancy logo.
-
-> To place your logo in your HTML document create an `img` element inside the first `section`. `img` elements don't need closing tags (it's one of the exceptions to the general rule of closing tags).
-
-> ```html
-<section>
-	<img src=" ">
-</section>
-```
-
-Every `img` requires a link - either a weblink to the image or the location of the image you're using in your files.
-
-> In Thimble, upload your logo and put the name inside `src=" "`
-
-> ```html
-<section>
-	<img src="hipsterlogo.jpg">
-</section>
-```
-
-If you're taking an image from the web you need to use the link to the image alone.
-
-> Right-click on the image and `Copy Link Address`. Then paste it inside `src=" "`
-
-> ```html
-<section>
-	<img src="http://placekitten.com/200/300">
-</section>
-```
-
-Don't worry just now if it's too big, we'll resize it later on.
 
 #### Headings
 
@@ -508,6 +468,54 @@ You can add **hyperlinks** to our content using the `a` element.
 	<p>Made with love by <a href="http://example.com"> Your Name</a></p>
 </body>
 ```
+
+#### Fancy logo
+
+![](assets/hipsterlogogenerator.png)
+
+It's important. We recommend [hipsterlogogenerator.com](https://www.hipsterlogogenerator.com) for quick and easy hipster logos :)
+
+> Take a couple of minutes to quickly make your own fancy logo.
+
+> To place your logo in your HTML document create an `img` element inside the first `section`. `img` elements don't need closing tags (it's one of the exceptions to the general rule of closing tags).
+
+> ```html
+<section>
+	<img src=" ">
+</section>
+<section>
+...
+</section>
+```
+
+Every `img` requires a link - either a weblink to the image or the location of the image you're using in your files.
+
+> In Thimble, upload your logo and put the name inside `src=" "`
+
+> ```html
+<section>
+	<img src="hipsterlogo.jpg">
+</section>
+<section>
+...
+</section>
+```
+
+If you're taking an image from the web you need to use the link to the image alone.
+
+> Right-click on the image and `Copy Link Address`. Then paste it inside `src=" "`
+
+> ```html
+<section>
+	<img src="http://placekitten.com/200/300">
+</section>
+<section>
+...
+</section>
+```
+
+Don't worry just now if it's too big, we'll resize it later on.
+
 
 ### Publish your project
 
@@ -676,7 +684,7 @@ For now, we'll use [03difoha.github.io](https://03difoha.github.io), where you c
 > ```css
 html
 {
-	background-image: url(https://03difoha.github.io/BLABLABLABLABLA);
+	background-image: url('https://03difoha.github.io/example.jpg');
 }
 ```
 
@@ -692,7 +700,7 @@ We can achieve that with `background-size`. This property can take various value
 > ```css
 html
 {
-	background-image: url(https://03difoha.github.io/BLABLABLABLABLA);
+	background-image: url('https://03difoha.github.io/example.jpg');
  	background-size: cover;
 }
 ```
@@ -702,7 +710,7 @@ Now the image *covers* the content of your app, ie the `body` but you have proba
 > ```css
 html
 {
-	background-image: url(https://03difoha.github.io/BLABLABLABLABLA);
+	background-image: url('https://03difoha.github.io/example.jpg');
  	background-size: cover;
  	background-attachment: fixed;
 }
