@@ -1,17 +1,15 @@
-# Coding and app-making for beginners 
+# Coding and app-making for beginners
 
 ## Day 2 AM
 
-[Last week](../01) we started building your app's **interface** with HTML and CSS. 
+[Last week](../01) we started building your app's **interface** with HTML and CSS.
 
-**Today** we'll continue making with HTML and CSS. 
-
-Then we'll introduce the principles of **programming** and start playing with **JavaScript**.
+**Today** we'll continue making with HTML and CSS and introduce the principles of **programming** by playing with **JavaScript**.
 
 <!--
 1. [Workshop](#workshop): HTML & CSS recap.
 * [What is **programming**](#programming-vs-coding)?
-* Meet **JavaScript** and jQuery. 
+* Meet **JavaScript** and jQuery.
 -->
 
 <!-- * [Group task](#ux-research): UX research. -->
@@ -23,11 +21,11 @@ Then we'll introduce the principles of **programming** and start playing with **
 
 Different **languages**, separate [**concerns**](http://en.wikipedia.org/wiki/Separation_of_concerns#HTML.2C_CSS.2C_JavaScript).
 
-Think of a group of people working together, eg to make a car, a newspaper, a website, to provide education. What are the different *roles* and *concerns* of these people?
+Think of a group of people working together, e.g. to make a car, a newspaper, a website, to provide education. What are the different *roles* and *concerns* of these people?
 
 ##### **HTML** → content and structure  
 
-##### **CSS** → style and design 
+##### **CSS** → style and design
 
 <!--##### 3. **JS** → data and logic-->
 
@@ -38,18 +36,18 @@ Think of a group of people working together, eg to make a car, a newspaper, a we
 	```html
 	<a href="http://example.com"> Click me! </a>
 	```
-	
+
 	- [ ] HTML
 	- [ ] CSS
 * Is this code HTML or CSS?
 
 	```css
-	a 
+	a
 	{
 		color: orange;
-	}	
+	}
 	```
-	
+
 	- [ ] HTML
 	- [ ] CSS		 
 * What does this code produce?
@@ -57,7 +55,7 @@ Think of a group of people working together, eg to make a car, a newspaper, a we
 	```html
 	<a href="http://example.com"> Click me! </a>
 	```
-	
+
 	- [ ] An apple
 	- [ ] A paragraph
 	- [ ] A hyperlink
@@ -66,19 +64,19 @@ Think of a group of people working together, eg to make a car, a newspaper, a we
 	```html
 	<link href="style.css" rel="stylesheet">
 	```
-	
+
 	- [ ] In the `gut`
 	- [ ] At the end of the `body`
-	- [ ] Inside the `head`	
+	- [ ] Inside the `head`
 * What does this code produce?
 
 	```css
-	a 
+	a
 	{
 		background-color: orange;
 	}
-	```	
-	
+	```
+
 	- [ ] It turns every `a` orange
 	- [ ] It turns the text of `a` elements orange
 	- [ ] It turns the background of `a` elements orange
@@ -93,43 +91,43 @@ Think of a group of people working together, eg to make a car, a newspaper, a we
 	```html
 	<p> Good morning coders!<p/>
 	```
-* Why doesn't this CSS code work? 
+* Why doesn't this CSS code work?
 
 	```css
 	<p>
 	{
-		color: red; 
+		color: red;
 	}
 	```     
-* Why doesn't this CSS code turn my paragraphs red? 
+* Why doesn't this CSS code turn my paragraphs red?
 
 	```css
-	p 
-	{ 
-		colour: red; 
+	p
+	{
+		colour: red;
 	}      
 	```
-* Why doesn't this CSS code turn my paragraphs red? 
+* Why doesn't this CSS code turn my paragraphs red?
 
 	```css
-   p 
-   { 
-    	font-size: 20px 
+   p
+   {
+    	font-size: 20px
     	color: red;
    }  
    ```
 
 # Let's code
 
-Go to [thimble.mozilla.org](https://thimble.mozilla.org/) and log in. Then open your project from last week. 
+Go to [thimble.mozilla.org](https://thimble.mozilla.org/) and log in. Then open your project from last week.
 
-Your app HTML structure is inside `index.html`. 
+Your app HTML structure is inside `index.html`.
 
 The CSS style is in another file `style.css` which is linked to the HTML with a `link` inside the `head` in `index.html`.
 
 ### Thinking inside the **box**
 
-Imagine that there is an **invisible box** around *every* HTML element. 
+Imagine that there is an **invisible box** around *every* HTML element.
 
 Your browser likes to put code into boxes, boxes inside boxes inside boxes inside boxes...
 
@@ -154,11 +152,11 @@ To style your dropdown, you first need to know how it's called in HTML: `select`
 > ```css
 select
 {
-	background-color: red; 
+	background-color: red;
 }
 ```
 
-This will turn your dropdown's **background** red. Go ahead and change that to your favourite colour. 
+This will turn your dropdown's **background** red. Go ahead and change that to your favourite colour.
 
 In Thimble, if you right-click on `red` and then `Quick Edit` a colour picker will pop up. Now you can choose between 16 million colours! You could also make it `transparent`.
 
@@ -169,12 +167,12 @@ In Thimble, if you right-click on `red` and then `Quick Edit` a colour picker wi
 > ```css
 select
 {
-	background-color: red; 
+	background-color: red;
 	color: white;
 }
 ```
 
-Last week you integrated a font from [Google Fonts](https://www.google.com/fonts) into your app, which turned everything into your chosen font. Or did it? 
+Last week you integrated a font from [Google Fonts](https://www.google.com/fonts) into your app, which turned everything into your chosen font. Or did it?
 
 The dropdown and buttons are still in the standard browser font.
 
@@ -183,7 +181,7 @@ The dropdown and buttons are still in the standard browser font.
 > ```css
 select
 {
-	background-color: red; 
+	background-color: red;
 	color: white;
 	font-family: 'Lekton'; /* 'Lekton' is our favourite font, you choose your own from https://www.google.com/fonts */
 }
@@ -205,22 +203,22 @@ Btw `px` stands for *pixels*, which are the little dots that make up the screen.
 
 ### Button
 
-> Add a new CSS block that targets the `button` 
+> Add a new CSS block that targets the `button`
 
 > ```css
 button
 {
 	border: none;
-	background-color: red; 
+	background-color: red;
 	cursor: pointer;
 }
 ```
 
-> Change the `color` to match your design. 
+> Change the `color` to match your design.
 
 It's good practice to style all *interactive* interface elements the same **colour and prominent**.
 
-Now you can apply some of the styles from the dropdown to the `button`. 
+Now you can apply some of the styles from the dropdown to the `button`.
 
 > How do you make **rounded corners**? With `border-radius`.
 
@@ -244,11 +242,11 @@ button
 
 ### Button states
 
-As an interactive element, a `button` should respond to user interactions, through its look & feel. 
+As an interactive element, a `button` should respond to user interactions, through its look & feel.
 
 For example, when you roll over a button, it's good practice for it to change its appearance, acknowledging that *something is happening*.
 
-> Add a new CSS block that targets the `hover` state of your `button` 
+> Add a new CSS block that targets the `hover` state of your `button`
 
 > ```css
 button:hover
@@ -279,14 +277,14 @@ button
 So far we've styled individual elements like `a`, `img`, `select` and `button`. It's time to look at the bigger picture. Our design has a couple of issues:
 
 1. Texts over the background image are not *legible*.
-* On large screens, your app looks *odd*. 
+* On large screens, your app looks *odd*.
 
 To address these, we can add a semi-transparent background that will focus people's attention to where they should read and click.
 
 > Create a new CSS rule for `section` and give it a `background-color`.
 
 > ```css
-section 
+section
 {
 	background: rgba(255,255,255,0.6);
 	padding: 20px;
@@ -298,7 +296,7 @@ The CSS above will add a white semi-transparent background to the `section` and 
 It still looks *odd* on large screens though.
 
 > ```css
-section 
+section
 {
 	...
 	max-width: 500px;
@@ -306,18 +304,13 @@ section
 }
 ```
 
-`max-width` will limit the `section` width to maximum 500px (roughly the width of a smartphone) and `margin: auto;` will put it in the centre. 
-
-
-# Coding and app-making for beginners 
-
-## Day 2 PM
+`max-width` will limit the `section` width to maximum 500px (roughly the width of a smartphone) and `margin: auto;` will put it in the centre.
 
 ## Making a list
 
-So far your interface features **input** elements and some text. 
+So far your interface features **input** elements and some text.
 
-What about the **output** elements? 
+What about the **output** elements?
 
 <!--In other words, how your interface would display a **list of results** from the database.-->
 
@@ -342,7 +335,7 @@ So, we will mock up a **list** of results (people in our *community skill-swap* 
 
 Think about what you want your search results to display. For example we could have an image `img`, a heading `h2` and a short paragraph `p`.
 
-> Inside the `li` put some *placeholder* content. 
+> Inside the `li` put some *placeholder* content.
 
 >	```html
 <ul>
@@ -361,18 +354,18 @@ Think about what you want your search results to display. For example we could h
 
 A couple of list items will give us an idea of how your interface will display search results.
 
-We can now **style** these. 
+We can now **style** these.
 
 For example, how can we remove the *bullet points* from the list?
 
-> In `style.css` select the list `ul` and define its style. 
+> In `style.css` select the list `ul` and define its style.
 
 > ```css
 ul
 {
 	list-style: none;
 }
-``` 
+```
 
 In CSS you can select elements **nested** inside other elements like this
 
@@ -382,19 +375,22 @@ li img
 	width: 50px;
 }
 ```
-	
+
 The rule above will select all images `img` inside list items `li`.
 
-Confused? Play [CSS Diner flukeout.github.io](http://flukeout.github.io), an online game that teaches you **CSS selectors**! 
+Confused? Play [CSS Diner flukeout.github.io](http://flukeout.github.io), an online game that teaches you **CSS selectors**!
 
-> Go ahead and style the list and its components. 
-	
-> Remember, if you don't know how to style something, Google may have the answers! 
+> Go ahead and style the list and its components.
 
-When you search for a solution online, it's good to start your *search query* with the coding language you're using, like `css`, followed by the problem you are trying to solve or the effect you are trying to achieve. 
+> Remember, if you don't know how to style something, Google may have the answers!
+
+When you search for a solution online, it's good to start your *search query* with the coding language you're using, like `css`, followed by the problem you are trying to solve or the effect you are trying to achieve.
 
 For example `css how to round the corners of a button`.
 
+# Coding and app-making for beginners
+
+## Day 2 PM
 
 # Coding vs programming
 
@@ -405,14 +401,13 @@ For example `css how to round the corners of a button`.
 
 [What's an algorithm?](http://www.bbc.co.uk/guides/z3whpv4#zyfwjxs)
 
-* Computers can code.
 * Computers can't program. People can.
 
 #### Programming requires us to **think** in a certain way
 
-Before we learn how to *code* a program, we should learn how to *think* about problems and solutions. 
+Before we learn how to *write* a program, we should learn how to *think* about problems and solutions.
 
-#### **Computational thinking** 
+#### **Computational thinking**
 
 <!--* Not thinking like computers. Do computers think anyway? -->
 
@@ -429,35 +424,37 @@ Let's pretend I'm a **robot** and you have to **program me**.
 
 * **Mission**: find an object in the room, pick it up
 
-* I only understand these **commands**: 
- 
+* I only understand these **commands**:
+
 	`walk(steps)`
-	
-	`turn(degrees)` 
- 	
+
+	`turn(degrees)`
+
  	`grab(thing)`
 
 * I can listen, but can only answer `yes` or `no`
 
+* Can you create a set of instructions to make robot find an object in *any* room? 
+
 <!--People usually start by giving you very *specific instructions* (eg: walk 3 steps, turn 45 degrees, walk 2 steps..): **remote-controlling**
 
 We can then make them their code more *abstract* and *flexible* with **logic** and **functions**.
-	
+
 (The idea is to engage people with an [easy task](http://pss.sagepub.com/content/early/2012/08/31/0956797612446024.abstract) before we challenge them with a demanding one)-->
-	
+
 ## Principles of Programming
 
-There are lots of programming languages: JavaScript, Python, C, C++, Objective-C, Swift, Java, Ruby. 
+There are lots of programming languages: JavaScript, Python, C, C++, Objective-C, Swift, Java, Ruby.
 
-They share the same core principles, and the same **building blocks**: 
+They share the same core principles, and the same **building blocks**:
 
-1. **Variables** to store data 
+1. **Variables** to store data
 * **Functions** to define reusable sets of instructions
 * **Logic** to make choices `if this then that`
 
 What variables, functions and logic do you use in your everyday life (even if you don't call them so)?
 
-* **Variables** weather (sunny, cloudy, warm, cold etc), date, location... 
+* **Variables** weather (sunny, cloudy, warm, cold etc), date, location...
 * **Functions** get out of bed, check the weather (on your phone, looking outside), check your calendar, make tea...
 * **Logic** `if sunny then wear sunglasses`, `if rainy then take an umbrella`
 
@@ -473,7 +470,7 @@ To set things in motion, to have a truly interactive experience, we need another
 
 ##### **HTML** → content and structure  
 
-##### **CSS** → style and design 
+##### **CSS** → style and design
 
 ##### **JS** → behaviour and logic
 
@@ -481,7 +478,7 @@ HTML and CSS are coding languages.
 
 JavaScript is a programming language (together with PHP, Python, Ruby, Java and many others).
 
-### Meet JS 
+### Meet JS
 
 **JavaScript lives in every browser**. You don't need to install anything, it's already there.
 
@@ -491,13 +488,13 @@ We'll use the [**JavaScript Console**](http://webmasters.stackexchange.com/a/773
 
 > ![](assets/console.png)
 
-We don't normally write JS in the Console. Instead, we write our JS programs in a code editor like Thimble (or [Sublime](http://www.sublimetext.com), [Brackets](http://brackets.io) etc) and store them as `.js` files. 
+We don't normally write JS in the Console. Instead, we write our JS programs in a code editor like Thimble (or [Sublime](http://www.sublimetext.com), [Brackets](http://brackets.io) etc) and store them as `.js` files.
 
 The Console is an essential **testing tool** for people who write JavaScript. Why do we need it? Because JS is *invisible*.
 
-When we write HTML and CSS, we can see the results of our code rendered by the browser. 
+When we write HTML and CSS, we can see the results of our code rendered by the browser.
 
-**JS instead doesn't show up on the page**! It does a lot of stuff behind the scenes (like loading, sorting, storing and comparing data) which we can't see. 
+**JS instead doesn't show up on the page**! It does a lot of stuff behind the scenes (like loading, sorting, storing and comparing data) which we can't see.
 
 Yet, it is very useful when writing JS, to check that our code is running properly, that it doesn't have errors, and that it has all the data it needs at the right time.
 
@@ -507,24 +504,24 @@ Using the Console is like having a chat with your browser. As long as you talk J
 
 ```javascript
 hello
-	Uncaught ReferenceError: hello is not defined
+
 "hello"
-	"hello"
+
 ```
 
-Notice the difference between words with **speech marks** (the browser interprets them as *strings* and just parrots them) and words without speech marks... 
+Notice the difference between words with **speech marks** (the browser interprets them as *strings* and just parrots them) and words without speech marks...
 
 #### Variables
 
-```javascript	
+```javascript
 var greeting = "hello"
-	undefined
+
 greeting
-	"hello"
+
 greeting = "hej"
-	"hej"
+
 greeting
-	"hej"
+
 ```
 
 You can use **variables** to get the browser to remember things.
@@ -533,17 +530,17 @@ You can use **variables** to get the browser to remember things.
 
 The browser can perform certain *actions* natively, like humans can natively breath.
 
-```javascript	
+```javascript
 alert("ciao")
-	undefined
+
 alert(greeting)
-	undefined
+
 prompt("How do you say hello in your language?")
-	"ciao"
+
 var userName = prompt("What's your name?")
-	undefined
+
 var userAge = prompt("How old are you?")
-	undefined
+
 ```
 
 These actions are called **functions**.
@@ -551,41 +548,41 @@ These actions are called **functions**.
 Functions are useful to **make code reusable**.
 
 You can also teach the browser how to do stuff, by **defining your own functions**
-	
-#### Objects	
-	
-```javascript	
+
+#### Objects
+
+```javascript
 cat
-	Uncaught ReferenceError: cat is not defined
+
 var cat = {}
-	undefined
+
 cat.name = "Bill"
-	"Bill"
+
 cat
-	Object {name: "Bill"}
+
 cat.favouriteDrink = "herbal tea"
-	"herbal tea"
+
 ```
 
 **Objects** are useful to keep things organised.
 
 If a *variable* is like a *jar* that contains one thing, an *object* is like a *fridge* which stores many things in a more/less organised way.
 
-```javascript	
+```javascript
 cat.meow = function(){ alert("MEOOOOOOW") }
-	function (){ alert("MEOOOOOOW") }
+
 cat.meow()
-	undefined
+
 cat.drink = function(beverage){ alert("I am drinking " + beverage) }
-	function (beverage){ alert("I am drinking " + beverage) }
+
 cat.drink("milk")
-	undefined
+
 cat.drink("tea")
-	undefined
+
 cat.drink("beer")
-	undefined
+
 cat.drink(cat.favouriteDrink)
-	undefined	
+
 ```
 
 You can add pretty much anything to objects, including functions.
@@ -598,7 +595,7 @@ Now that you're familiar with the basic building blocks of JS ([variables](#vari
 
 ### Meet the database
 
-So far you have stored and manipulated *data* in your browser. 
+So far you have stored and manipulated *data* in your browser.
 
 However, this is not a scalable solution. What if your **data grows bigger** than the average browser memory? What if you want more people to access that data at **the same time**? What if your app needs to store **confidential information**? What if your app needs to do heavy **data crunching** and you can't rely on the average browser power?
 
@@ -606,7 +603,7 @@ For all those reasons, using a database is part of the solution.
 
 #### Firebase
 
-We're going to use a cloud-based real-time database service called [Firebase](https://www.firebase.com). There are several other solutions, including building your own database, however we chose Firebase because of its performance, features and good documentation. 
+We're going to use a cloud-based real-time database service called [Firebase](https://www.firebase.com). There are several other solutions, including building your own database, however we chose Firebase because of its performance, features and good documentation.
 
 Many companies use Firebase to rapidly prototype app ideas, without investing time and money on database infrastructure and software.
 
@@ -619,7 +616,7 @@ Let's learn how Firebase works, before you integrate it into your app: using Chr
 <!-- Open your browser JavaScript Console by pressing <kbd>cmd</kbd> + <kbd>alt</kbd> + <kbd>J</kbd>. -->
 
 
-> Over the next week, play [JS for cats jsforcats.com](http://jsforcats.com/) 
+> Over the next week, play [JS for cats jsforcats.com](http://jsforcats.com/)
 
 > It's an introduction to JavaScript "...so easy your human companion could do it too!" :scream_cat:
 
