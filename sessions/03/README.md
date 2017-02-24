@@ -499,7 +499,7 @@ Yet your browser doesn't know how Firebase works, because Firebase doesn't come 
 
 > Before you can use Firebase in your app, you must **install the Firebase JS library**. Do that by clicking 'Add Firebase to your web app' in your console overview. Firebase will generate some code that you will need to paste at the end of `body` in `index.html`, just before the other `script` which points to `app.js`
 
-> ![Add firebase to your webapp]('assets/add_firebase_webapp.png')
+> ![Add firebase to your webapp](assets/add_firebase_webapp.png)
 
 Now that your browser knows what Firebase is and how it works, you can create a `database` *variable* as a new instance of `Firebase` and point it to our own `databaseURL`.
 
