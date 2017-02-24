@@ -401,7 +401,6 @@ For example `css how to round the corners of a button`.
 
 [What's an algorithm?](http://www.bbc.co.uk/guides/z3whpv4#zyfwjxs)
 
-* Computers can code.
 * Computers can't program. People can.
 
 #### Programming requires us to **think** in a certain way
@@ -434,6 +433,8 @@ Let's pretend I'm a **robot** and you have to **program me**.
  	`grab(thing)`
 
 * I can listen, but can only answer `yes` or `no`
+
+* Can you create a set of instructions to make robot find an object in *any* room? 
 
 <!--People usually start by giving you very *specific instructions* (eg: walk 3 steps, turn 45 degrees, walk 2 steps..): **remote-controlling**
 
