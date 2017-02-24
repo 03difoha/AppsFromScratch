@@ -510,69 +510,36 @@ Now that your browser knows what Firebase is and how to acces it, you can create
 var data = [];
 ```
 
-In large databases there may be many different types of data. For example, user information and websites information such as FAQs.
+Usually in large databases there are many different types of data. For example, user information and websites information such as FAQs.
 
-We don't need to load the entire database in our app, but only data about *people*. We can think of *people* as a **list** of `person` objects.
+However for now we are going to get all of our database entries in one object. 
 
-> Create a `peopleList` *variable* and set it as an empty list `[]`.
+By reading the Firebase [documentation](https://firebase.google.com/docs/database/admin/retrieve-data#section-reading-once) we can work out how to access our database information.
 
-> ```js
-var peopleList = []; // an empty list, for now
-```
-
-The next step will be to load data from `database` and store a bunch of `person` objects in `peopleList`.
-
-`database` is a Firebase *thing*, we haven't made so we don't know how to use it. What to do? **Read the manual!**
-
-The Firebase manuals (aka the *docs*) are online at [firebase.com/docs](https://www.firebase.google.com/docs/). We're looking for the `Web` manual, and a good place to start is the `Step by Step Guide` ([firebase.com/docs/web/guide](https://www.firebase.google.com/docs/web/guide)).
-
-We're going to read how to *retrieve* data (point 4).
-
-[![](assets/firebase-child-added.png)](https://www.firebase.google.com/docs/web/guide/retrieving-data.html#section-event-types)
-
-So, it looks like the function we're looking for is
+Create a function called getData
 
 ```js
-on('child_added', doSomething);`
+function getData(){
+
+}
 ```
-
-which is typically used to retrieve a *list* of items (in our case, a list of `person` objects).
-
-Let's try it out.
-
-> Call `on('child_added'` function from `database` to load a list of items and store each one in `peopleList`:
-
-> ```js
-database.on('child_added', function( firebaseObject )
-{
-	var person = firebaseObject.val();
-  	peopleList.push(person);
-})
+#### Firebase jargon
+```js
+function getData(){
+  firebase.database().ref().once('value').then(function(snapshot) {
+  });
+}
 ```
+Let's break this down.
 
-<!--
-// load data, see the Firebase manual https://www.firebase.google.com/docs/web/guide/retrieving-data.html#section-event-types
-
-// "push" is JavaScript's lingo for "add to a list"
--->
-
-The JS code above, in plain English:
-
-* Hey database!
-
-* For each *child* of `database`, do the following steps:
-
-	* Create a variable `person`
-
-	* Call the `.val()` function to extract the value from  `firebaseObject` and store inside `person`  
-
-	* Add `person` to `peopleList` (`push` is JavaScript's lingo for *add to a list*)
-
-	* Repeat until you've looped through all the *children*
-
-* Thanks!
-
-At this point, we can use the Console to check if `peopleList` has been loaded with data.
+```js
+function getData(){
+  firebase.database().ref().once('value').then(function(snapshot) {
+    var data = snapshot.val();
+  });
+}
+```
+Console log it!
 
 <!--
 # Recipe for apps
