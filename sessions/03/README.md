@@ -454,7 +454,9 @@ For our project we are going to set our database to public to make the data easi
 ```
 > * Now click `Publish`
 
-## Then: code the algorithms
+## Now let's add some data
+
+One your firebase, click on database in the left hand panel. Next to the name of your database, click the green plus button to make an entry. This can be anything you like, i.e. `name: "Harry"`. Finally click `Add`.
 
 Now that we have data in our Firebase database, we can load it into our app and do stuff with it!
 
@@ -497,11 +499,16 @@ Your browser can do [many things out-of-the-box](https://developer.mozilla.org/e
 
 Yet your browser doesn't know how Firebase works, because Firebase doesn't come pre-installed.
 
-> Before you can use Firebase in your app, you must **install the Firebase JS library**. Do that by clicking 'Add Firebase to your web app' in your console overview. Firebase will generate some code that you will need to paste at the end of `body` in `index.html`, just before the other `script` which points to `app.js`
+Before you can use Firebase in your app, you must **install the Firebase JS library**.
 
+> On Firebase click overview (in the top left)
+> Add Firebase to your web app (pink button)
+> Firebase will generate some code that you will need to paste at the end of `body` in `index.html`, just before the other `script` which points to `app.js`
 > ![Add firebase to your webapp](assets/add_firebase_webapp.png)
 
-Now that your browser knows what Firebase is and how it works, you can create a `database` *variable* as a new instance of `Firebase` and point it to our own `databaseURL`.
+To allow our application to speak to Firebase it needs to have the right authentication. You can imagine this is like having the right keys to your door.
+
+Now that your browser knows what Firebase is and how to acces it, you can create a `database` *variable* as a new instance of `Firebase` and point it to our own `databaseURL`.
 
 > In `app.js`:
 
