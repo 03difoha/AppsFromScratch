@@ -501,10 +501,10 @@ Yet your browser doesn't know how Firebase works, because Firebase doesn't come 
 
 Before you can use Firebase in your app, you must **install the Firebase JS library**.
 
-> On Firebase click overview (in the top left)
-> Add Firebase to your web app (pink button)
-> Firebase will generate some code that you will need to paste at the end of `body` in `index.html`, just before the other `script` which points to `app.js`
-> ![Add firebase to your webapp](assets/add_firebase_webapp.png)
+1. On Firebase click overview (in the top left)
+2. Add Firebase to your web app (pink button)
+3. Firebase will generate some code that you will need to paste at the end of `body` in `index.html`, just before the other `script` which points to `app.js`
+4. ![Add firebase to your webapp](assets/add_firebase_webapp.png)
 
 To allow our application to speak to Firebase it needs to have the right authentication. You can imagine this is like having the right keys to your door.
 
