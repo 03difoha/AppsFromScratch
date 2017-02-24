@@ -91,9 +91,9 @@ var person = {};
 You can then add **properties** to the object like this
 
 ```js
-person.name = "Aimee";
+person.name = "Jonny";
 person.codingSkills = 3;
-person.bakingSkills = 5;
+person.singingSkills = 0;
 ```
 
 ### How do you access objects?
@@ -110,13 +110,13 @@ person.name
 
 JavaScript is very good at comparing data.
 
-Say we wanted to know whether the `name` of a `person` was `Matteo`:
+Say we wanted to know whether the `name` of a `person` was `Harry`:
 
 ```js
-person.name == "Matteo"
+person.name == "Harry"
 ```
 
-In English, this would translate to: if the value of `name` is equal to `Matteo`, then spit out `true`. And if not, spit out `false`.
+In English, this would translate to: if the value of `name` is equal to `Harry`, then spit out `true`. And if not, spit out `false`.
 
 Notice this subtle but important difference:
 
@@ -135,7 +135,7 @@ if (person.age < 18) {
 }
 ```
 
-So, **if** the `age` property of `person` is lower than `18` an alert will pop up, saying `You are not technically an adult`. Otherwise (aka **else**) if `age` is equal or bigger than `18`, the alert will say `But are you really an adult?`
+So, **if** the `age` property of `person` is lower than `18` an alert will pop up, saying `"You are not technically an adult"`. Otherwise (aka **else**) if `age` is equal to or bigger than `18`, the alert will say `"But are you really an adult?"`
 
 This is really handy for searching through databases. For instance, when you search for something on Google, they use lots of *if statements* to sort through all the millions of pages to find results that match your search words.
 
@@ -409,11 +409,21 @@ If the dataset is small, we may as well load it all and then present only what u
 
 ### But hang on... where is our *actual* database?
 
-We're going to use a cloud-based real-time **database** service called [Firebase](https://www.firebase.com). There are several other solutions, including building your own database, however we chose Firebase because of its performance, features and good documentation.
+We're going to use a cloud-based real-time **database** service called [Firebase](https://www.firebase.google.com). There are several other solutions, including building your own database, however we chose Firebase because of its performance, features and good documentation.
 
 Many companies use Firebase to **rapidly prototype** app ideas, without investing time and money on database infrastructure and software.
 
-[![](assets/firebase.png)](https://www.firebase.com)
+We prepared a little tool for the *data entry* job. We made it with Thimble, so that you can see its source code and *remix* it.
+
+> Go to [Firebase Pusher](https://thimbleprojects.org/appsfromscratch/217423/)
+
+> Fill the form with data about yourself, or a made-up person.
+
+> Click `Push it!` to send that data to our Firebase.  
+
+Firebase updates in real-time, so shortly after you hit `Push it!` a new *object* with all the data you entered, will pop up on our demo database :zap:
+
+[![](assets/firebase.png)](https://www.firebase.google.com)
 
 > 1. Go to [https://firebase.google.com/](https://firebase.google.com/)
 > * Click `LOGIN`
@@ -424,7 +434,6 @@ Many companies use Firebase to **rapidly prototype** app ideas, without investin
 > * Click `Create new project`
 > * Type in a `Project name` and select `United Kingdom` as Country/Region
 > * Click `Create Project`
-> 	![](assets/firebase-demo.png)
 
 So now we have an **empty** database.
 
@@ -444,18 +453,6 @@ For our project we are going to set our database to public to make the data easi
 }
 ```
 > * Now click `Publish`
-
-Let's put some data into it!
-
-We prepared a little tool for the *data entry* job. We made it with Thimble, so that you can see its source code and *remix* it.
-
-> Go to [bit.ly/FirebasePusher](https://thimbleprojects.org/codeyourapp/60893/)
-
-> Fill the form with data about yourself, or a made-up person.
-
-> Click `Push it!` to send that data to our Firebase.  
-
-Firebase updates in real-time, so shortly after you hit `Push it!` a new *object* with all the data you entered, will pop up on our own database at [codeyourapp.firebaseio.com](https://codeyourapp.firebaseio.com) :zap:
 
 ## Then: code the algorithms
 
@@ -486,9 +483,9 @@ The browser will read and execute `app.js` every time you load/refresh your app.
 
 *Where* is our data?
 
-We need to know where to load data from, that is we need a **URL**. You can think of it as the *address* or *phone number* of your data.
+We need to know where to load data from, for this we need a **URL**. You can think of it as the *address* or *phone number* of your data.
 
-[codeyourapp.firebaseio.com](https://codeyourapp.firebaseio.com)
+`"codeyourapp.firebaseio.com"`
 
 > In `app.js`, store the database URL as a *variable*:
 
@@ -496,7 +493,7 @@ We need to know where to load data from, that is we need a **URL**. You can thin
 var databaseURL = 'https://codeyourapp.firebaseio.com';
 ```
 
-Your browser can do [many things out-of-the-box](https://developer.mozilla.org/en/docs/Web/API), for instance: giving you scarily accurate geolocation coordinates, playing audios and vides, doing maths, convert text into voices etc.
+Your browser can do [many things out-of-the-box](https://developer.mozilla.org/en/docs/Web/API), for instance: giving you scarily accurate geolocation coordinates, playing audios and videos, doing maths, convert text into voices etc.
 
 Yet your browser doesn't know how Firebase works, because Firebase doesn't come pre-installed.
 
@@ -504,7 +501,7 @@ Yet your browser doesn't know how Firebase works, because Firebase doesn't come 
 
 > ```html
 	...
-	<script src="https://cdn.firebase.com/js/client/2.4.0/firebase.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/3.6.10/firebase.js"></script>
 	<script src="app.js"></script>
 </body>
 </html>
@@ -530,11 +527,11 @@ The next step will be to load data from `database` and store a bunch of `person`
 
 `database` is a Firebase *thing*, we haven't made so we don't know how to use it. What to do? **Read the manual!**
 
-The Firebase manuals (aka the *docs*) are online at [firebase.com/docs](https://www.firebase.com/docs/). We're looking for the `Web` manual, and a good place to start is the `Step by Step Guide` ([firebase.com/docs/web/guide](https://www.firebase.com/docs/web/guide)).
+The Firebase manuals (aka the *docs*) are online at [firebase.com/docs](https://www.firebase.google.com/docs/). We're looking for the `Web` manual, and a good place to start is the `Step by Step Guide` ([firebase.com/docs/web/guide](https://www.firebase.google.com/docs/web/guide)).
 
 We're going to read how to *retrieve* data (point 4).
 
-[![](assets/firebase-child-added.png)](https://www.firebase.com/docs/web/guide/retrieving-data.html#section-event-types)
+[![](assets/firebase-child-added.png)](https://www.firebase.google.com/docs/web/guide/retrieving-data.html#section-event-types)
 
 So, it looks like the function we're looking for is
 
@@ -557,7 +554,7 @@ database.on('child_added', function( firebaseObject )
 ```
 
 <!--
-// load data, see the Firebase manual https://www.firebase.com/docs/web/guide/retrieving-data.html#section-event-types
+// load data, see the Firebase manual https://www.firebase.google.com/docs/web/guide/retrieving-data.html#section-event-types
 
 // "push" is JavaScript's lingo for "add to a list"
 -->
