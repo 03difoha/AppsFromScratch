@@ -489,12 +489,6 @@ We need to know where to load data from, for this we need a **URL**. You can thi
 
 `"codeyourapp.firebaseio.com"`
 
-> In `app.js`, store the database URL as a *variable*:
-
-> ```js
-var databaseURL = 'https://codeyourapp.firebaseio.com';
-```
-
 Your browser can do [many things out-of-the-box](https://developer.mozilla.org/en/docs/Web/API), for instance: giving you scarily accurate geolocation coordinates, playing audios and videos, doing maths, convert text into voices etc.
 
 Yet your browser doesn't know how Firebase works, because Firebase doesn't come pre-installed.
@@ -504,17 +498,19 @@ Before you can use Firebase in your app, you must **install the Firebase JS libr
 1. On Firebase click overview (in the top left)
 2. Add Firebase to your web app (pink button)
 3. Firebase will generate some code that you will need to paste at the end of `body` in `index.html`, just before the other `script` which points to `app.js`
-4. ![Add firebase to your webapp](assets/add_firebase_webapp.png)
+![Add firebase to your webapp](assets/add_firebase_webapp.png)
 
 To allow our application to speak to Firebase it needs to have the right authentication. You can imagine this is like having the right keys to your door.
 
-Now that your browser knows what Firebase is and how to acces it, you can create a `database` *variable* as a new instance of `Firebase` and point it to our own `databaseURL`.
+Now that your browser knows what Firebase is and how to acces it, you can create a `data` *variable* that we will add all of our data to.
 
 > In `app.js`:
 
 > ```js
-var database = new Firebase(databaseURL);
+var data = [];
 ```
+
+In large databases there may be many different types of data. For example, user information and websites information such as FAQs.
 
 We don't need to load the entire database in our app, but only data about *people*. We can think of *people* as a **list** of `person` objects.
 
