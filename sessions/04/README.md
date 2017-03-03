@@ -477,6 +477,8 @@ To give us some data to practice JQuery with after lunch, let's add some dummy d
 
 ![](assets/firebase-database-url.png)
 
+8. Once we have done all of that, let's publish the pusher we remixed and submit it a few times with dummy data
+
 ### One more thing: **values**!
 
 <!--There's *one more thing* you need to add to your **HTML**. -->
@@ -498,8 +500,6 @@ To let JS know which data to look for, we can add a little bit of information to
 The `value` attribute will contain the property which relates to the selected option - the exact spelling you use in your database. 
 
 For example, if the user selects `Bake a cake`, the property which matches that is `bakingSkills`.
-
-> Open your Firebase database at [codeyourapp.firebaseio.com](https://codeyourapp.firebaseio.com/) and take a look at the data you've stored in there. 
 
 > Copy property names from the database and paste them in the relevant value slot in your HTML. Make sure to double-check for the exact property names, otherwise your JS code will not work!
 
