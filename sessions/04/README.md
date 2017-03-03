@@ -467,13 +467,13 @@ Your users will also need a way to contact the person. Add in a contact button i
 
 To give us some data to practice JQuery with after lunch, let's add some dummy data to firebase.
 
-1. Log into Thimble
+1. Login to **Thimble**
 2. Go to [Firebase pusher](https://thimbleprojects.org/appsfromscratch/217423/)
-3. Click remix (DO NOT EDIT THE ORIGINAL)
-4. Rename the project to '*your name*'s Firebase pusher'
-5. In a new tab open Firebase and log in and then go to your database
-6. Copy the database URL
-7. Paste the URL in your remixed pusher's app.js
+3. Click **remix** (DO NOT EDIT THE ORIGINAL)
+4. **Rename** the project to '**your name**'s Firebase pusher'
+5. In a new tab open Firebase, login and then go to your **database**
+6. **Copy** the database URL
+7. **Paste** the URL in your remixed pusher's app.js
 ![](assets/firebase-database-url.png)
 
 ### One more thing: **values**!
