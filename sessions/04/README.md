@@ -477,7 +477,7 @@ To give us some data to practice JQuery with after lunch, let's add some dummy d
 
 ![](assets/firebase-database-url.png)
 
-8. Once we have done all of that, let's publish the pusher we remixed and submit it a few times with dummy data
+> Once we have done all of that, let's publish the pusher we remixed and submit it a few times with dummy data
 
 ### One more thing: **values**!
 
