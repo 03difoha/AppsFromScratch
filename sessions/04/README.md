@@ -474,6 +474,7 @@ To give us some data to practice JQuery with after lunch, let's add some dummy d
 5. In a new tab open Firebase, login and then go to your **database**
 6. **Copy** the database URL
 7. **Paste** the URL in your remixed pusher's app.js
+
 ![](assets/firebase-database-url.png)
 
 ### One more thing: **values**!
