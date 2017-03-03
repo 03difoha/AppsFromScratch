@@ -3,7 +3,7 @@
 ## Day 4 AM
 
 
-[Last week](../03) you learned how to use **JS** to connect your app to an online **database**, **upload data** (aka `write`) and **download data** (aka `write`).
+[Last week](../03) you learned how to use **JS** to connect your app to an online **database**, **upload data** (aka `write`) and **download data** (aka `read`).
 
 <!--You also started **wireframing** different app *recipes* using the same basic *ingredients*: interface inputs, a database and some filtering logic.-->
 
@@ -131,7 +131,7 @@ http://tonyfreed.com/blog/top_javascript_interview_question_2015
 
 ### **Comment** your code to make sense of it
 
-Translating JS into your own plain-English comments will help you make sense of your code. Even after years of JS development (and despite English not being Matteo's mother tongue) we find reading English much easier than JS :)
+Translating JS into your own plain-English comments will help you make sense of your code. Even after years of JS development. Even after working in JS for a while we find reading English much easier :)
 
 In JS you can write a comment using double forward-slash `//` (without spaces between the two slashes)
 
@@ -463,6 +463,18 @@ Your users will also need a way to contact the person. Add in a contact button i
 	</div>
 </section>
 ```
+### Back to Firebase
+
+To give us some data to practice JQuery with after lunch, let's add some dummy data to firebase.
+
+1. Log into Thimble
+2. Go to [Firebase pusher](https://thimbleprojects.org/appsfromscratch/217423/)
+3. Click remix (DO NOT EDIT THE ORIGINAL)
+4. Rename the project to '*your name*'s Firebase pusher'
+5. In a new tab open Firebase and log in and then go to your database
+6. Copy the database URL
+7. Paste the URL in your remixed pusher's app.js
+![](assets/firebase-database-url.png)
 
 ### One more thing: **values**!
 
@@ -497,7 +509,6 @@ For example, if the user selects `Bake a cake`, the property which matches that 
      <option value="likesPets">Keep my pet</option>
 </select>
 ```
-
 
 # Coding and app-making for beginners 
 
