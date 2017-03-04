@@ -422,12 +422,12 @@ We're going to use that `img`, `h2` and `p` in `#details`.
 <section id="details">
 	<a id="back">Back</a>
 	<div id="person">
-		<img src="https://avatars3.githubusercontent.com/u/9767977">
+		<img src="https://avatars2.githubusercontent.com/u/10498995">
 		<h2>
-			Aimee
+			Jonny
 		</h2>
 		<p>
-			I like code and cake
+			I love JavaScript
 		</p>
 	</div>
 </section>
@@ -444,7 +444,7 @@ Your users may want to move back and forth between `#home` and `#details`. For t
  	...
 ``` 
 	
-Your users will also need a way to contact the person. Add in a contact button inside your `#person`: `<a class="contactButton">Contact Aimee</a>`
+Your users will also need a way to contact the person. Add in a contact button inside your `#person`: `<a class="contactButton">Contact Jonny</a>`
 
 > Your `<section id="details"></section>`  will look something like this:
 
@@ -452,14 +452,14 @@ Your users will also need a way to contact the person. Add in a contact button i
 <section id="details">
 	<a id="back">Back</a>
 	<div id="person">
-		<img src="https://avatars3.githubusercontent.com/u/9767977">
+		<img src="https://avatars2.githubusercontent.com/u/10498995">
 		<h2>
-			Aimee
+			Jonny
 		</h2>
 		<p>
-			I like code and cake
+			I love JavaScript
 		</p>
-		<a class="contactButton">Contact Aimee</a>
+		<a class="contactButton">Contact Jonny</a>
 	</div>
 </section>
 ```
@@ -642,7 +642,7 @@ We created a handy document with snippets of code for you to **copy-paste**: [bi
 > Go to [bit.ly/copyPasteCodeYourApp](https://bit.ly/copyPasteCodeYourApp) and copy the following code (you can find it under Day 4):
 
 > ```html
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 ```
 
 > Open `index.html`.
@@ -651,7 +651,7 @@ We created a handy document with snippets of code for you to **copy-paste**: [bi
 
 > ```html
 		...
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<!-- Make sure jQuery is loaded before app.js-->
 		<script src="app.js"></script>
 	</body>
