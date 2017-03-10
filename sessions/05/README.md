@@ -130,7 +130,7 @@ Yuki:
 
 
 # Coding and app-making for beginners 
-
+## AM
 ## Day 5
 
 [Last week](../04) you:
@@ -191,11 +191,21 @@ We'll take it slowly :)
 	   p.hide();
 	});
 	```
-	
+
+# Your data
+
+Now that our apps are progressing it's time that we started getting rid of dummy data. Whilst other people are having their tutorials we want everyone else to be finalising their users data. This means:
+
+* Using real names (No Joe Bloggs or using people in this class' names. Be creative)
+* Rate skills by number (1-5 instead of by adjectives e.g. good or bad)
+* Detailed 'about me' or 'info' descriptions (2 sentences minimum)
+* Think about the type of people that are using your app. Put yourself in their shoes, what information are you trying to find.
+* You want this to look like a real app so make it look realistic.
+
+
 # Your app
 
-
-Have a think about how you can hack the template we've made together.
+Have a think about the data you have made, how can we get this to work within the app we have built so far.
 
 Remember the components:
 
@@ -205,6 +215,7 @@ Remember the components:
 
 What app ideas could you bring to life using this same structure?
 
+## PM
 
 # Build your own database
 
