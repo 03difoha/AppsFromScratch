@@ -149,30 +149,44 @@ So far you've successfully created an app template for yourself which you'll use
 
 **Today** we're going to start personalising your apps, you will:
 
+* 1 to 1 tutorials
 * jot down some ideas for apps 
-* create your own new Firebase
 * design and structure your data
-* hack the Firebase pusher and push data to your new database
+* keep hacking the Firebase pusher and push data to your database
 * and start adapting the functions to display exactly what you want
 
 That sounds like a lot!
 
 We'll take it slowly :)
-<!--
-### The *art* of `copy-paste`
 
-Today is about mastering **the art of copy-paste**. To become a good coder you don't need to "speak" JavaScript (or whatever other programming language). Instead, you should learn how to:
+# Quiz time!
 
-1. **Search** for solutions online 
-* **Skim** through results
-* **Copy-paste** relevant results into your code
-* **Adapt** the pasted code to your app (changing *variable* names, tweaking *functions* etc).
 
-When writing code, it's important to let go of any fear of making **mistakes**. Embrace mistakes, take them as an opportunity to learn. When something unexpected happens, try to avoid thinking `What have I done wrong?`. Instead ask yourself `Why did the computer not behave as I expected?`. Come up with a possible answer and then test it.
+1. What does this do?
+	```js
+	var button = $('button');
+	```
+2. Why do we write this line?
+	```js
+	var p = $(‘p’);
+	```
+3. Which of these functions are not native to javascript?
+	- [ ].click
+	- [ ].hide
+	- [ ]both
+	
+	```js
+	// example code
+	var button = $('button');
 
-We will show you some tools and tricks to make the process of spotting mistakes and testing solutions (aka **debugging**) very efficient.
--->
+	var p = $(‘p’);
 
+	button.click( function ()
+	{
+	   p.hide();
+	});
+	```
+	
 # Your app
 
 
@@ -217,8 +231,6 @@ Let's look at three general principles of database design, and then you'll apply
 | Danny | Base | 21 |
 
 This way you can take specific bits of data and spit them out wherever and however you want in your app.
-
-Also, you could do things like `calculate the average age of our people`.
 
 <!--### 2. Break it into multiple *dimensions*
 
@@ -352,21 +364,6 @@ Starting from you app idea, consider:
 	For example `likesPets` helps us filter data for the *I'd like someone to keep my pet* option, `bakingSkills` helps us filter data for the *I'd like someone to bake a cake* option, etc.
 
 **Make a list** of all the data pieces for your data unit on paper.
-
-Go to Firebase, log in and *create a new app* (which really means create a *new database*).
-
-1. Hover over the greyed-out box in the top-left corner
-
-	![](assets/new-firebase-01.jpg)
-* Give your *app* a unique name	
-
-	![](assets/new-firebase-02.jpg)
-* Click on `CREATE NEW APP`	
-
-	![](assets/new-firebase-03.jpg)
-* Once your new app is ready (it will take a few seconds) it will appear next to the greyed-out box, click on its URL to open it
-
-	![](assets/new-firebase-04.jpg)
 	
 ### Push data to your new Firebase
 
