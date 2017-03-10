@@ -219,6 +219,23 @@ Let's look at three general principles of database design, and then you'll apply
 
 ## Key database design principles
 
+Starting from you app idea, consider:
+
+* What is the **data unit**? 
+	
+	For example, in our demo app the *data unit* is a person and in the database we're storing people's profiles. 
+	 
+
+* What pieces of data will your *data unit* feature? 
+
+	For example, in our demo app for each person we're storing `name`, `blurb`, `profile picture`, `likesPets`, `bakingSkills` etc. 
+	
+* Which data pieces will be used to **rank, filter & sort**? 
+	
+	For example `likesPets` helps us filter data for the *I'd like someone to keep my pet* option, `bakingSkills` helps us filter data for the *I'd like someone to bake a cake* option, etc.
+
+**Make a list** of all the data pieces for your data unit on paper.
+
 ### 1. Break your data into *logical pieces*
 
 <!--Also known as [1NF](http://en.wikipedia.org/wiki/First_normal_form) (first normal form).--> 
@@ -349,36 +366,8 @@ For **yes or no** answers. This is useful for filtering out results.
 | Boris | Johnson | false | false
 
 For instance, it would be easy to filter only the film-makers using this data structure.
-
-
-## Your turn!
-
-Starting from you app idea, consider:
-
-* What is the **data unit**? 
-	
-	For example, in our demo app the *data unit* is a person and in the database we're storing people's profiles. 
-	 
-
-* What pieces of data will your *data unit* feature? 
-
-	For example, in our demo app for each person we're storing `name`, `blurb`, `profile picture`, `likesPets`, `bakingSkills` etc. 
-	
-* Which data pieces will be used to **rank, filter & sort**? 
-	
-	For example `likesPets` helps us filter data for the *I'd like someone to keep my pet* option, `bakingSkills` helps us filter data for the *I'd like someone to bake a cake* option, etc.
-
-**Make a list** of all the data pieces for your data unit on paper.
 	
 ### Push data to your new Firebase
-
-> Go to [bit.ly/FirebasePusher](http://bit.ly/FirebasePusher) and click `Remix`.
-
-This is a Thimble project which uses an HTML `form` to *push* data to Firebase. In order to make it work with your own Firebase database, you need to make a couple of changes:
-
-> Change `databaseURL` to your own Firebase URL
-
-> ![](assets/databaseURL.png)
 
 > Tweak the `input` elements so that they reflect your data structures. Make sure you change the `name` *attributes*, eg:
 
@@ -387,11 +376,6 @@ This is a Thimble project which uses an HTML `form` to *push* data to Firebase. 
 ```
 
 > Add as many `input` elements as you need. You'll find some examples of common input types in the Thimble HTML code.
-
-
-# Displaying data
-
-Once you've created your own database and *pushed* data to it, you'll need to customise the code you already have to display your new data.
 
 ### Remix your project
 
@@ -419,8 +403,6 @@ For example, the `bakingSkills` in the HTML dropdown below **must** match the `b
 	...
 </select>
 ```
-
-![](assets/firebase-person.png)
 	
 <!--
 Take a look at the code, can you spot the parts you need to change?
