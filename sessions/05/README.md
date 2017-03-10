@@ -162,22 +162,23 @@ We'll take it slowly :)
 # Quiz time!
 
 
-1. What does this do?
+* What does this do?
 
-```js
-var button = $('button');
-```
+	```js
+	var button = $('button');
+	```
 
 * Why do we write this line?
 
-```js
-var p = $(‘p’);
-```
+	```js
+	var p = $(‘p’);
+	```
 
 * Which of these functions are not native to javascript?
-- [ ] .click
-- [ ] .hide
-- [ ] both
+
+	- [ ] .click
+	- [ ] .hide
+	- [ ] both
 	
 	```js
 	// example code
