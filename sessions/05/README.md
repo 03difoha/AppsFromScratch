@@ -366,8 +366,10 @@ For **yes or no** answers. This is useful for filtering out results.
 | Boris | Johnson | false | false
 
 For instance, it would be easy to filter only the film-makers using this data structure.
-	
-### Push data to your new Firebase
+
+### Editing the pusher
+
+Now that we have our designed data let's edit our pusher so that the fields match our new data inputs. 
 
 > Tweak the `input` elements so that they reflect your data structures. Make sure you change the `name` *attributes*, eg:
 
@@ -375,25 +377,19 @@ For instance, it would be easy to filter only the film-makers using this data st
 <input name="CHANGE_THIS" ...>
 ```
 
-> Add as many `input` elements as you need. You'll find some examples of common input types in the Thimble HTML code.
+> Add the `input` elements that you need. You'll find some examples of common input types in the Thimble HTML code.
 
-### Remix your project
+Once you have made these changes save your progress by publishing the project.
 
-So you don't lose your previous work:
+### Push data to your Firebase
 
-> 1. `Publish` your project
-> * Preview it 
-> * Press the `Remix` button. This will make a copy of the project. Now you can tweak this code to fit your new data (without losing your first project).
+> Now using your updated pusher *write* to the database using the data we designed earlier.
 
 ### Customise your code
 
-> In your remixed project, open `app.js` and change `databaseURL` to your own database URL. 
-
-This will instruct the app to load data from your own Firebase.
-
 > In `index.html` change the `option` elements to reflect your data. 
 
-> Make sure the `value` attributes match the property names you are using in Firebase. 
+> Make sure the `value` attributes match the property names you are using in Firebase **EXACTLY**. 
 	
 For example, the `bakingSkills` in the HTML dropdown below **must** match the `bakingSkills` property stored in Firebase, letter by letter, and it's case sensitive.
 	
