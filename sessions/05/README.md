@@ -175,9 +175,9 @@ var p = $(‘p’);
 ```
 
 * Which of these functions are not native to javascript?
--[ ] .click
--[ ] .hide
--[ ] both
+- [ ] .click
+- [ ] .hide
+- [ ] both
 	
 	```js
 	// example code
