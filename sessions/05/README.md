@@ -163,17 +163,17 @@ We'll take it slowly :)
 
 
 1. What does this do?
-	```js
-	var button = $('button');
-	```
+```js
+var button = $('button');
+```
 2. Why do we write this line?
-	```js
-	var p = $(‘p’);
-	```
+```js
+var p = $(‘p’);
+```
 3. Which of these functions are not native to javascript?
-	- [ ].click
-	- [ ].hide
-	- [ ]both
+- [ ].click
+- [ ].hide
+- [ ]both
 	
 	```js
 	// example code
