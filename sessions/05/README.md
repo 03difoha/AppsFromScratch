@@ -150,14 +150,9 @@ So far you've successfully created an app template for yourself which you'll use
 **Today** we're going to start personalising your apps, you will:
 
 * individual tutorials
-* jot down some ideas for apps 
 * design and structure your data
 * keep hacking the Firebase pusher and push data to your database
 * and start adapting the functions to display exactly what you want
-
-That sounds like a lot!
-
-We'll take it slowly :)
 
 # Quiz time!
 
@@ -165,7 +160,15 @@ We'll take it slowly :)
 * What does this do?
 
 	```js
+	// example code
 	var button = $('button');
+
+	var p = $(‘p’);
+
+	button.click( function ()
+	{
+	   p.hide();
+	});
 	```
 
 * Why do we write this line?
@@ -179,28 +182,16 @@ We'll take it slowly :)
 	- [ ] .click
 	- [ ] .hide
 	- [ ] both
-	
-	```js
-	// example code
-	var button = $('button');
-
-	var p = $(‘p’);
-
-	button.click( function ()
-	{
-	   p.hide();
-	});
-	```
 
 # Your data
 
-Now that our apps are progressing it's time that we started getting rid of dummy data. Whilst other people are having their tutorials we want everyone else to be finalising their users data. This means:
+Now that our apps are progressing, it's time that we started getting rid of dummy data. Whilst other people are having their tutorials we want everyone else to be finalising their users data. This means:
 
-* Using real names (No Joe Bloggs or using people in this class' names. Be creative)
-* Rate skills by number (1-5 instead of by adjectives e.g. good or bad)
-* Detailed 'about me' or 'info' descriptions (2 sentences minimum)
-* Think about the type of people that are using your app. Put yourself in their shoes, what information are you trying to find.
-* You want this to look like a real app so make it look realistic.
+* using real names (No Joe Bloggs or using people in this class' names. Be creative)
+* rate skills by number (1-5 instead of by adjectives e.g. good or bad)
+* detailed 'about me' or 'info' descriptions (2 sentences minimum)
+* think about the type of people that are using your app. Put yourself in their shoes, what information are you trying to find?
+* you want this to look like a real app so make your data realistic
 
 # Your app
 
@@ -212,7 +203,7 @@ Remember the components:
 * Data: we used people and ranked their skills, what could you replace people with?
 * Logic: only the people who ranked highly in the searched-for skill are shown in the results
 
-What app ideas could you bring to life using this same structure?
+What app ideas could work with the same structure?
 
 # Tutorials
 
