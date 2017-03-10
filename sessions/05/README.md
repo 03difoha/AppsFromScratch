@@ -216,6 +216,8 @@ What app ideas could you bring to life using this same structure?
 
 # Tutorials
 
+We will both be spending time with each of you working through any issues you have with the app or any questions regarding what you have learnt so far.
+
 ## PM
 
 # Build your own database
