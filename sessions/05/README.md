@@ -149,7 +149,7 @@ So far you've successfully created an app template for yourself which you'll use
 
 **Today** we're going to start personalising your apps, you will:
 
-* 1 to 1 tutorials
+* individual tutorials
 * jot down some ideas for apps 
 * design and structure your data
 * keep hacking the Firebase pusher and push data to your database
