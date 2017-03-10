@@ -202,7 +202,6 @@ Now that our apps are progressing it's time that we started getting rid of dummy
 * Think about the type of people that are using your app. Put yourself in their shoes, what information are you trying to find.
 * You want this to look like a real app so make it look realistic.
 
-
 # Your app
 
 Have a think about the data you have made, how can we get this to work within the app we have built so far.
@@ -214,6 +213,8 @@ Remember the components:
 * Logic: only the people who ranked highly in the searched-for skill are shown in the results
 
 What app ideas could you bring to life using this same structure?
+
+# Tutorials
 
 ## PM
 
