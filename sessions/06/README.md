@@ -303,6 +303,9 @@ This code ensures your app will display well on mobile. Be sure to change the `l
 
 	What not to do!
 
+* [UI patterns](http://ui-patterns.com/) `ui-patterns.com`
+
+	Great website for finding out the latest trends in user interface designs
 
 # Things you achieved in 24 hours!
 
