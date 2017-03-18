@@ -37,14 +37,15 @@ This is the last day of the course! You've made it, great job!
 
 [Last week](../05) you... 
 
-* Created a new database and connected it to your app
+* Debugged your code.
+* Began designing your data to best suit your project.
+* Remixed your Firebase pusher to cater for your new data
 * Used the Firebase Pusher to send data to your new database
-* Some of you also started to tweak the functions in `show.js` to change the results display 
 * And many of you used the JS Console to spot mistakes and test solutions (aka **debugging**)
 
 **Today** we're going to pull everything we've learned together:
 
-1. Recap how to **design your database**, depending on how you want users to interact with your data
+* Recap how to **design your database**, depending on how you want users to interact with your data
 * Recap how to populate **your own Firebase database** with test-data using the Firebase Pusher
 * What do your functions do?
 * How can you tweak them to display the results exactly as you like?
